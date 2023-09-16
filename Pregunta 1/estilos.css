@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);
+
+* {
+    font-family: 'Lato';
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.card {
+    text-align: center;
+    height: 550px;
+    width: 300px;
+    margin: auto;
+}
+
+.imagen img {
+    width: 300px;
+}
+
+.info {
+    margin-top: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.info h5{
+    margin: 0px;
+}
+
+.info h5, h4, h6, h3{
+    text-align: left;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.precio {
+    display: flex;
+}
+
+.precio h3{
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.precio div {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.precioReal {
+    text-decoration: line-through;
+    margin: 0px;
+}
+
+.retiro li {
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.retiro li::before {
+    content: '\2713\0020';
+}
+
+.btn {
+    background-color: #ADD500;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+}
